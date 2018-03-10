@@ -1,0 +1,255 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+         android:padding="1dp"
+        android:background="#337AB7"
+        android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+        	android:layout_width="0dp"
+       		android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:padding="10dp"
+        	android:layout_margin="1dp"
+        	android:background="#FFFFFF"
+        	android:text="监测时间"/>
+        <TextView
+            android:id="@+id/tv_resp_time"
+        	android:layout_width="0dp"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:padding="10dp"
+        	android:layout_margin="1dp"
+        	android:background="#FFFFFF"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+        	android:layout_width="0dp"
+       		android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:padding="10dp"
+        	android:layout_margin="1dp"
+        	android:background="#FFFFFF"
+        	android:text="棚内温度"/>
+        <TextView
+            android:id="@+id/tv_resp_temp_is"
+        	android:layout_width="0dp"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:padding="10dp"
+        	android:layout_margin="1dp"
+        	android:background="#FFFFFF"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+        	android:layout_width="0dp"
+       		android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:padding="10dp"
+        	android:layout_margin="1dp"
+        	android:background="#FFFFFF"
+        	android:text="棚内湿度"/>
+        <TextView
+            android:id="@+id/tv_resp_humi_is"
+        	android:layout_width="0dp"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:padding="10dp"
+        	android:layout_margin="1dp"
+        	android:background="#FFFFFF"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+        	android:layout_width="0dp"
+       		android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:padding="10dp"
+        	android:layout_margin="1dp"
+        	android:background="#FFFFFF"
+        	android:text="棚内二氧化碳浓度"/>
+
+        <TextView
+            android:id="@+id/tv_resp_co_is"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:padding="10dp" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+        	android:layout_width="0dp"
+       		android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:padding="10dp"
+        	android:layout_margin="1dp"
+        	android:background="#FFFFFF"
+        	android:text="棚外温度"/>
+        <TextView
+            android:id="@+id/tv_resp_temp_os"
+        	android:layout_width="0dp"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:padding="10dp"
+        	android:layout_margin="1dp"
+        	android:background="#FFFFFF"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+        	android:layout_width="0dp"
+       		android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:padding="10dp"
+        	android:layout_margin="1dp"
+        	android:background="#FFFFFF"
+        	android:text="棚外湿度"/>
+        <TextView
+            android:id="@+id/tv_resp_humi_os"
+        	android:layout_width="0dp"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:padding="10dp"
+        	android:layout_margin="1dp"
+        	android:background="#FFFFFF"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+        	android:layout_width="0dp"
+       		android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:padding="10dp"
+        	android:layout_margin="1dp"
+        	android:background="#FFFFFF"
+        	android:text="棚外二氧化碳浓度"/>
+        <TextView
+            android:id="@+id/tv_resp_co_os"
+        	android:layout_width="0dp"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:padding="10dp"
+        	android:layout_margin="1dp"
+        	android:background="#FFFFFF"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+        	android:layout_width="0dp"
+       		android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:padding="10dp"
+        	android:layout_margin="1dp"
+        	android:background="#FFFFFF"
+        	android:text="本机时间"/>
+        <TextView
+            android:id="@+id/tv_local_time"
+        	android:layout_width="0dp"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:padding="10dp"
+        	android:layout_margin="1dp"
+        	android:background="#FFFFFF"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        <TextView
+        	android:layout_width="0dp"
+       		android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:padding="10dp"
+        	android:layout_margin="1dp"
+        	android:background="#FFFFFF"
+        	android:text="监测序号"/>
+        <TextView
+            android:id="@+id/tv_count"
+        	android:layout_width="0dp"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:padding="10dp"
+        	android:layout_margin="1dp"
+        	android:background="#FFFFFF"/>
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <TextView
+        	android:layout_width="match_parent"
+       		android:layout_height="match_parent"
+        	android:padding="10dp"
+        	android:layout_margin="1dp"
+        	android:background="#FFFFFF"
+        	android:text="名   称：海林菌类实验大棚\n地   址：海林菌类实验基地 \n联系人：陈先生 15645637902"/>
+       
+    </LinearLayout>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF" >
+        <Button
+            android:id="@+id/btn_switch"
+        	android:layout_width="0dp"
+       		android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:text="停止"/>
+        <Button
+            android:id="@+id/btn_exit"
+        	android:layout_width="0dp"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:text="退出"/>
+    </LinearLayout>    
+        
+        
+        
+        
+   
+    
+</LinearLayout>
